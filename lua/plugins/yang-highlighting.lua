@@ -1,0 +1,5 @@
+return {
+  {
+    "nathanalderson/yang.vim",
+  },
+}
