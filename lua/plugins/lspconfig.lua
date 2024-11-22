@@ -15,7 +15,9 @@ return {
           root_dir = util.find_git_ancestor,
         },
       }
-      require("lspconfig").yang_lsp.setup({})
+      require("lspconfig").yang_lsp.setup({ filetypes = { "yang" } })
+
+      require("lspconfig").pyright.setup({})
     end,
   },
 }
