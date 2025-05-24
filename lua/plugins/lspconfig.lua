@@ -19,7 +19,7 @@ return {
 
       require("lspconfig").pyright.setup({})
 
-      require("lspconfig").intelephense.setup({})
+      require("lspconfig").phpactor.setup({})
     end,
   },
 }
