@@ -3,6 +3,9 @@
 -- Add any additional options here
 vim.opt.relativenumber = false
 
+-- don't automatically reformat files by default
+vim.g.autoformat = false
+
 vim.diagnostic.config({
   virtual_text = {
     severity = vim.diagnostic.severity.ERROR, -- or omit to show all severities
